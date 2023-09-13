@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      "scribbletune",
+      "/mnt/c/Users/Matthias/Dev/scribble"
+    ],
+    [
+      "scribbletune",
+      "/mnt/c/Users/Matthias/Dev/scribble"
+    ]
+  ],
+  "_from": "scribbletune@latest",
+  "_id": "scribbletune@1.0.0-alpha.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/scribbletune",
+  "_nodeVersion": "9.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/scribbletune_1.0.0-alpha.2_1526449015146_0.010224141960503363"
+  },
+  "_npmUser": {
+    "email": "walmik.deshpande@gmail.com",
+    "name": "walmik"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": null,
+    "raw": "scribbletune",
+    "rawSpec": "scribbletune",
+    "scope": null,
+    "spec": "/mnt/c/Users/Matthias/Dev/scribble/node_modules/scribbletune",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/scribbletune/-/scribbletune-1.0.0-alpha.2.tgz",
+  "_shasum": "865cf8f78d9f32016ee1c7355b19f1a19dc3d579",
+  "_shrinkwrap": null,
+  "_spec": "scribbletune",
+  "_where": "/mnt/c/Users/Matthias/Dev/scribble",
+  "author": {
+    "name": "Walmik Deshpande"
+  },
+  "bugs": {
+    "url": "https://github.com/walmik/scribbletune/issues"
+  },
+  "dependencies": {
+    "Presets": "git+https://github.com/walmik/Presets.git#gh-pages",
+    "jsmidgen": "~0.1.4",
+    "tonal": "^1.1.3",
+    "tone": "^0.12.80"
+  },
+  "description": "Create music with JavaScript and Node.js!",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-tape": "0.0.7",
+    "tape": "^4.9.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 23,
+    "integrity": "sha512-Vz35b/aZUAix7FInSZDAHDHIKmUd7FO7iIBV5TbcIBwInK00guRrnrIGgJyXTnl6Hl/FVdSQY3VRByZB8wZP2w==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+8N4CRA9TVsSAnZWagAACm8P/07hnZ8pR0C/d0g6J2SD\nsikhvAZpEIZ34k1ta9sNEQiF9uqM8ZJrSFHKAn6h54jZ7/9fUhwG/0zHqt2Q\nvGpMVDEGd3WP41/sEzS1AJtzZ5kDSYgmB/mqWOJCRALGN+HB/QW4H66rEikL\no89J5YQj4A1W8pVIajrQxt6Hbb2q7Pn+FJWDbRRN+AwKf6cfsqQmgGoFeee3\n+3fAjGKbQQsNfWB41/rr6LccifkpLxlwef7uh8t35cX5N1Jw+mKtTijxPV3/\nBdtbZh3TuKRS3g2d/uqwyPQHNCLzDryRuyFBDo/pKjv/QHgIZl5uI0vl4/ig\nHyyeTtV7gzdr0Ie5538LFWIcLz71kGc8ixzAw+YVgB+zr04ryZW1SwEZzxdD\n16fkooq3IPAmQR5l8Rkv29D9fnRI4UXJag647We4POlpHeLvdP+f8zSwr797\nRW2hmbwmJdnMREebNeGOFJYcMA9FRKP/sFXMg++pGJFeNM8rh8Eb8IjNjnAT\nJfX0MHfQ8cjz/xHgC+rKPcwx5C+l9xyYJ+8GcdB5c+Q4n78yMEBWI4zkStKv\nBxuddsyFjlPS4Km0upSaXWq6OpuQ3NXXiRve2v/18Rpeojpnn4tFN0n9th9O\nTj3TeqQAM3kbmOJErmyihCY62lOlnlcL9CCldsdDwzyb+6+1gX46/BfWD6UP\nnF5y\r\n=Luk8\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "865cf8f78d9f32016ee1c7355b19f1a19dc3d579",
+    "tarball": "https://registry.npmjs.org/scribbletune/-/scribbletune-1.0.0-alpha.2.tgz",
+    "unpackedSize": 36702
+  },
+  "engines": {
+    "node": ">6.x.x"
+  },
+  "gitHead": "2fc911155315c5cdde9162f08b240267f1a6db8c",
+  "homepage": "https://github.com/walmik/scribbletune#readme",
+  "keywords": [
+    "javascript",
+    "midi",
+    "music"
+  ],
+  "license": "MIT",
+  "main": "./src/index.js",
+  "maintainers": [
+    {
+      "name": "walmik",
+      "email": "walmik.deshpande@gmail.com"
+    }
+  ],
+  "name": "scribbletune",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/walmik/scribbletune.git"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "version": "1.0.0-alpha.2"
+}
